@@ -177,15 +177,15 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
 ## FAQ
 
 Q：我输入了一个指令，但风林没有反应怎么办？  
-A：检查指令的开头。在群聊中，风林只会对`@风林`消息有反应；在私聊中只会对以`/`开头的指令有反应。此外，没有反应的另一个原因可能是您的权限不足，该指令未向您开放。请参阅下表查看指令的默认开放状态。非默认开放指令需联系管理员（QQ：1939838753）开放权限。:green_circle:
+A：检查指令的开头。在群聊中，风林只会对`@风林`消息有反应；在私聊中只会对以`/`开头的指令有反应。此外，没有反应的另一个原因可能是您的权限不足，该指令未向您开放。请参阅下表查看指令的默认开放状态。非默认开放指令需联系管理员（QQ：1939838753）开放权限。
 
 |指令名称|私聊默认开放状态|群聊默认开放状态|是否支持私聊开放|
 |:--|:--:|:--:|:--:|
-|原神小助手|:red_circle:|:red_circle:|:red_circle:|
-|随机二次元|:red_circle:|:red_circle:|:white_check_mark:|
-|xkcd|:white_check_mark:|:white_check_mark:|-|
-|续火|:white_check_mark:|:red_circle:|-|
-|链接解析|:white_check_mark:|:red_circle:|-|
+|原神小助手|:small_red_diamond:|:small_red_diamond:|:small_red_diamond:|
+|随机二次元|:small_red_diamond:|:small_red_diamond:|:small_green_diamond:|
+|xkcd|:small_green_diamond:|:small_green_diamond:|-|
+|续火|:small_green_diamond:|:small_red_diamond:|-|
+|链接解析|:small_green_diamond:|:small_red_diamond:|-|
 
 
 ## 赞助
