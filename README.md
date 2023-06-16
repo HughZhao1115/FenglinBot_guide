@@ -3,9 +3,9 @@
 
 <p align="center">🤖 风林机器人使用说明✨</p></br>
 
-<p align="center"><img src='http://192.168.3.15:81/bot_status'></p>
+<p align="center"><img src='http://home.fenglinbot.com:81/bot_status'><a href='http://wpa.qq.com/msgrd?v=3&uin=242001096&site=qq&menu=yes'><img src="https://img.shields.io/badge/QQ-242001096-blue"></a></p>
 
-风林机器人是基于 QQ 平台开发的一款智能聊天机器人，支持多种聊天、娱乐等功能，同时加载了自然语言处理等若干插件，能够提供更多的功能和便利。可以在个人 QQ 聊天、群聊等场景中使用。
+风林机器人是基于 QQ 平台的一款智能聊天机器人，支持多种聊天、娱乐等功能，同时加载了自然语言处理等若干插件，能够提供更多的功能和便利。可以在个人 QQ 聊天、群聊等场景中使用。
 
 ## 快速索引
 
@@ -35,10 +35,11 @@
 - 在大部分情况下，风林仅会对以`/`或`@风林`开头的命令作出回应。而在群聊中，则仅会对以`@风林`开头的命令作出回应。
 - 部分功能可能需要特定的权限才能够正常使用，如果尝试使用某个功能时没有反应，可能是因为没有对应权限。如需使用相应插件（开启权限），请联系管理员。
 - 部分插件支持自然语言功能，这意味着可以使用更自然的语言来与机器人交互，而不是按照严格的命令格式发送消息。如果一个插件支持自然语言功能，那么在“功能列表”中对应的插件名称旁会标有“[N]”标记。
-- 不建议使用 QQ 自带的 "+1" 功能与风林机器人进行交互，因为受 QQ 的功能限制，即使消息中包含 "@风林"，也无法@到机器人。
+- 不建议使用 QQ 自带的 "+1" 功能与风林机器人进行交互，因为受 QQ 的功能限制，即使 "+1" 消息中包含 "@风林"，也无法@到机器人。
 
 ## 功能列表
 
+__注意：部分功能默认不对好友或群聊开放。关于功能是否开放的信息请参阅FAQ部分__
 
 ### 原神小助手\[N]
 
@@ -88,7 +89,7 @@
    | `天赋` / `角色` | 返回今日天赋培养材料图片 |
    | `武器` | 返回今日武器突破材料图片 |
 
-   用法示例：   *[结果示例图片（周一/四总图）](image/daily_demo.jpg)*  
+   用法示例：   *[结果示例图片（周一/四总图）](http://cdn1.fenglinbot.com/images/daily_demo.jpg)*  
 
    ```Python
    # 获取材料总图
@@ -122,7 +123,7 @@
    | `雷神` / `雷电` / `雷军` / `将军` | 返回 *祸津御建鸣神命* 掉落材料图片 |
    | `正机` / `散兵` / `伞兵` / `秘密主` | 返回 *「正机之神」* 掉落材料图片 |
 
-   ![周本总图](image/weekly_demo.jpg)
+   ![周本总图](http://cdn1.fenglinbot.com/images/weekly_demo.jpg)
 
    支持自然语言处理，需包含`原神`关键词。例如：
    
@@ -169,20 +170,28 @@
 风林：火
 ```
 
-
 ### 链接解析
 
+想下载文件又不想让对方看见接收提示？群文件下载速速太慢想要提速？没问题！直接将文件转发给风林，风林会告诉你下载链接。
+
 ## FAQ
+
+Q：我输入了一个指令，但风林没有反应怎么办？  
+A：检查指令的开头。在群聊中，风林只会对`@风林`消息有反应；在私聊中只会对以`/`开头的指令有反应。此外，没有反应的另一个原因可能是您的权限不足，该指令未向您开放。请参阅下表查看指令的默认开放状态。非默认开放指令需联系管理员（QQ：1939838753）开放权限。:green_circle:
+
+|指令名称|私聊默认开放状态|群聊默认开放状态|是否支持私聊开放|
+|:--|:--:|:--:|:--:|
+|原神小助手|:red_circle:|:red_circle:|:red_circle:|
+|随机二次元|:red_circle:|:red_circle:|:white_check_mark:|
+|xkcd|:white_check_mark:|:white_check_mark:|-|
+|续火|:white_check_mark:|:red_circle:|-|
+|链接解析|:white_check_mark:|:red_circle:|-|
+
 
 ## 赞助
 
 ## 特别鸣谢
 
-
-
 ## Copyright
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
-The FenglinBot project includes code adapted and modified from the [nonebot-plugin-gsmaterial](https://github.com/monsterxcn/nonebot-plugin-gsmaterial) by monsterxcn. The original code is licensed under the MIT license, and our modifications are also licensed under the MIT license.
-
