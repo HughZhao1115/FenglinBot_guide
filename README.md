@@ -3,7 +3,7 @@
 
 <p align="center">🤖 风林机器人使用说明✨</p></br>
 
-<p align="center"><img src='http://home.fenglinbot.com:81/bot_status'><a href='http://wpa.qq.com/msgrd?v=3&uin=242001096&site=qq&menu=yes'><img src="https://img.shields.io/badge/QQ-242001096-blue"></a></p>
+<p align="center"><a href='http://wpa.qq.com/msgrd?v=3&uin=242001096&site=qq&menu=yes'><img src="https://img.shields.io/badge/QQ-242001096-blue"></a></p>
 
 风林机器人是基于 QQ 平台的一款智能聊天机器人，支持多种聊天、娱乐等功能，同时加载了自然语言处理等若干插件，能够提供更多的功能和便利。可以在个人 QQ 聊天、群聊等场景中使用。
 
@@ -70,7 +70,7 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
 
    用法示例：
 
-   ```Python
+   ```QQ
    # 获取最新Cos图
    用户：@风林 原神Cos
    风林：[合并转发的聊天记录]
@@ -91,7 +91,7 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
 
    用法示例：   *[结果示例图片（周一/四总图）](http://cdn1.fenglinbot.com/images/daily_demo.jpg)*  
 
-   ```Python
+   ```QQ
    # 获取材料总图
    用户：@风林 原神材料
    风林：[图片]
@@ -103,7 +103,7 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
 
    自然语言：你可以用自然语言询问当日可供获取的材料而无需严格遵循上面的命令格式。但是为了避免误触发，在自然语言询问语句中必须出现`原神`关键词。例如：
 
-   ```Python
+   ```QQ
    用户：@风林 原神今天能刷哪些天赋材料？
    ```
 
@@ -127,7 +127,7 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
 
    支持自然语言处理，需包含`原神`关键词。例如：
    
-   ```Python
+   ```QQ
    用户：@风林 原神打可达鸭都掉什么？
    ```
 
@@ -145,7 +145,7 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
    | `竖屏` | 一张竖向的图片 |
    | `横屏` | 一张横向的图片 |
 
-   ```Python
+   ```QQ
    用户：/随机 兽耳
    风林：[图片]
    ```
@@ -155,7 +155,8 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
 ### xkcd
 
 看最新一期[xkcd](https://xkcd.com)漫画。命令名称就是`xkcd`
-```Python
+
+```QQ
 用户：/xkcd
 风林：[漫画标题]
      [漫画图片]
@@ -165,10 +166,13 @@ __注意：部分功能默认不对好友或群聊开放。关于功能是否开
 ### “续火”
 
 如果你不知道该发什么，又想和风林保持互动，可以简单地发一个“`火`”字。风林会相应的回你一个“火”。
-```
+
+```QQ
 用户：/火
 风林：火
 ```
+
+_Tips: 有概率触发隐藏彩蛋哦_
 
 ### 链接解析
 
@@ -181,11 +185,11 @@ A：检查指令的开头。在群聊中，风林只会对`@风林`消息有反�
 
 |指令名称|私聊默认开放状态|群聊默认开放状态|是否支持私聊开放|
 |:--|:--:|:--:|:--:|
-|原神小助手|:small_red_diamond:|:small_red_diamond:|:small_red_diamond:|
-|随机二次元|:small_red_diamond:|:small_red_diamond:|:small_green_diamond:|
-|xkcd|:small_green_diamond:|:small_green_diamond:|-|
-|续火|:small_green_diamond:|:small_red_diamond:|-|
-|链接解析|:small_green_diamond:|:small_red_diamond:|-|
+|原神小助手|:red_circle:|:red_circle:|:red_circle:|
+|随机二次元|:red_circle:|:red_circle:|:green_circle:|
+|xkcd|:green_circle:|:green_circle:|-|
+|续火|:green_circle:|:red_circle:|-|
+|链接解析|:green_circle:|:red_circle:|-|
 
 
 ## 赞助
